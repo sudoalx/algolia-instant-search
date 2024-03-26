@@ -1,8 +1,12 @@
-# React + Vite
+# Demo of Agolia Search in a react app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple demo of how to use Algolia Search in a React app. The app is a simple search engine that searches through a list of products. The app is built using React and the Algolia Search API.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get started, clone the repository and run the following commands:
+
+```bash
+pnpm install
+pnpm vite
+```
