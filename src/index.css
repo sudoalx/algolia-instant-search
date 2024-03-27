@@ -9,6 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f7fafc;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 code {
@@ -17,7 +23,7 @@ code {
 }
 
 .container {
-  margin-top: 30px;
+  margin: 2rem auto;
 }
 
 .ais-Highlight-highlighted {
@@ -32,11 +38,25 @@ code {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.clear-filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: #a0aec0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 .results-container {
   display: grid;
   grid-template-columns: 0.5fr 2fr;
   padding-left: 48px;
   padding-right: 48px;
+  margin: 2rem auto;
+}
+
+.sidebar {
+  margin: 0 2rem;
 }
 
 .sidebar ul {
